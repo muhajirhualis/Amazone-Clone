@@ -113,6 +113,7 @@ function Payment() {
               {basket?.map((item) => (
                 <CheckoutProduct
                   id={item.id}
+                  description={item.description}
                   title={item.title}
                   price={item.price}
                   rating={item.rating}
@@ -139,7 +140,7 @@ function Payment() {
                 prefix={"$"}
               />
               <div>
-                <button disabled={processing || disabled || succeeded}>              
+                <button disabled={processing || disabled || succeeded}>
                   <span>{processing ? <p>processing</p> : "Buy Now"}</span>
                 </button>
               </div>

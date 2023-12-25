@@ -13,6 +13,7 @@ function Products({ id, title,description, price, rating, image }) {
       item: {
         id: id,
         title: title,
+        description: description,
         price: price,
         rating: rating,
         image: image,
@@ -25,7 +26,6 @@ function Products({ id, title,description, price, rating, image }) {
     <div className="product">
       <div className="product__info">
         <h3 className="product__title">{title}</h3>
-    
         <p className="product__price">
           <small>$</small>
           <strong>{price}</strong>
