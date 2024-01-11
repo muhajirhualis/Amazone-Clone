@@ -11,11 +11,11 @@ function Home() {
         <div className="home__row">
           <Products
             id="1"
-            title="Apple AirPods Max Wireless Over-Ear Headphones"
+            title="Shop activity trackers and smartwatches"
             description="Apple AirPods Max Wireless Over-Ear Headphones, Transparency Mode,Bluetooth Headphones for iPhone – Space Gray"
             price={134}
             rating={5}
-            image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/813LwotY94L._AC_SX466_.jpg"
+            image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg"
           />
           <Products
             id="2"
